@@ -13,7 +13,7 @@ export const DropDown: React.FC<DropDownProps> = (props) => {
 
   const handleShowId = () => {
     setAnchorEl(null);
-    console.log(props.data.ipcount);
+    console.log("Number of IP: ", props.data.ipcount);
   };
   return (
     <div>
